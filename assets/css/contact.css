@@ -45,8 +45,8 @@ nav a{
     border-width: 0.1rem;
 }
 
-a[href="#"]{
-    background-color: rgb(13, 168, 13);
+a[href=""]{
+    background-color: rgb(13, 168, 13) !important;
 }
 
 .portada{
