@@ -31,21 +31,46 @@
             <h2>Registration Form</h2>
             <form action="./show_data.html" method="get">
                 <fieldset>
-                    <p><label for="first_name">Player’s First Name:</label>
-                    <input type="text" name="first_name" id="first_name"></p>
+                    <p><label for="first_name" >Player’s First Name:</label>
+                    <input required type="text" name="first_name" id="first_name"></p>
                     <p><label for="last_name">Last Name:</label>
-                    <input type="text" name="last_name" id="last_name"></p>
+                    <input required type="text" name="last_name" id="last_name"></p>
                     <p><label for="address">Street Address:</label>
-                    <input type="text" name="address" id="address"></p>
+                    <input required type="text" name="address" id="address"></p>
                     <p><label for="city">City:</label>
-                    <input type="text" name="city" id="city"></p>
+                    <input required type="text" name="city" id="city"></p>
                     <p><label for="code">Zip Code:</label>
-                    <input type="number" name="zip_code" min="0" id="code"></p>
+                    <input required type="number" name="zip_code" min="0" id="code"></p>
                     <p><label for="birth_date">Birth Date:</label>
-                    <input type="date" name="birth_date" id="birth_date"></p>
+                    <input required type="date" name="birth_date" id="birth_date"></p>
                     <p><label for="parent">Parent/Guardian:</label>
-                    <input type="text" name="parent" id="parent"></p>
+                    <input required type="text" name="parent" id="parent"></p>
                 </fieldset>
+                <fieldset>
+                    <legend>Gender?</legend>
+                    <p> <input type="radio"name="gender"value="F">
+                    <label>Female</label>
+                    </p>
+                    <p><input type="radio"name="gender"value="M">
+                    <label>Male</label></p>
+                    <p><input type="radio"name="gender"value="O">
+                    <label>Other</label></p>
+                </fieldset>
+                 <fieldset>
+                    <legend>Pre-School</legend>
+                    <p> <input type="radio"name="gender"value="F">
+                    <label>1sth</label>
+                    </p>
+                    <p><input type="radio"name="gender"value="M">
+                    <label>2sth</label></p>
+                    <p><input type="radio"name="gender"value="O">
+                    <label>3sth</label></p>
+                    <p><input type="radio"name="gender"value="M">
+                    <label>4st</label></p>
+                    <p><input type="radio"name="gender"value="M">
+                    <label>5sth</label></p>
+                </fieldset>
+
                 <fieldset>
                     <legend>Which elementary school do you live near?</legend>
                     <p><label for="school">Closest School:</label>
@@ -72,7 +97,7 @@
                 </fieldset>
                 <fieldset>
                     <legend>Uniform Size</legend> 
-                        <p><input type="radio" id="youth_small" name="uniform_size" value="Youth Small">
+                        <p><input required type="radio" id="youth_small" name="uniform_size" value="Youth Small">
                         <label for="youth_small">Youth Small</label></p>
                         <p><input type="radio" id="youth_medium" name="uniform_size" value="Youth Medium">
                         <label for="youth_medium">Youth Medium</label></p>
