@@ -6,7 +6,7 @@
 
 body{
     margin: 2rem;
-   background:   linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(32,181,169,1) 0%, rgba(36,145,158,1) 62%);
+   background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(32,181,169,1) 0%, rgba(36,145,158,1) 62%);
     color: white;
     font-family: cursive;
 }
